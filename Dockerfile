@@ -26,8 +26,6 @@ RUN apt-get update \
 
 RUN apt-get update \
 &&  DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-supervisor \
-nginx \
 php8.0 \
 php8.0-cli \
 php8.0-fpm \
